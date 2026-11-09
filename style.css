@@ -1530,6 +1530,50 @@ nav a:hover {
 
 
 /* =========================================================
+   SPONSORS
+   ========================================================= */
+
+.sponsor-grid {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 32px;
+}
+
+
+.sponsor-logo {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    min-height: 100px;
+
+    padding: 16px;
+}
+
+
+.sponsor-logo img {
+
+    width: auto;
+
+    max-width: 220px;
+
+    max-height: 90px;
+
+    object-fit: contain;
+}
+
+
+/* =========================================================
    IMPORTANT DATES
    ========================================================= */
 
