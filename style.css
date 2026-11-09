@@ -1537,11 +1537,13 @@ nav a:hover {
 
     display: flex;
 
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 
     align-items: center;
 
     justify-content: center;
+
+    overflow-x: auto;
 
     gap: 32px;
 }
@@ -1551,11 +1553,15 @@ nav a:hover {
 
     display: flex;
 
+    flex: 0 0 220px;
+
     align-items: center;
 
     justify-content: center;
 
     min-height: 100px;
+
+    margin: 0;
 
     padding: 16px;
 }
